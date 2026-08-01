@@ -1,0 +1,37 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+coverage/
+.cache/
+.parcel-cache/
+.vite/
+
+# Environment and local secrets
+.env
+.env.*
+!.env.example
+
+# Editor and OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+
+# Local OAuth/runtime files
+server/config.json
+server/runtime/
+google_tokens.json
